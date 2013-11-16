@@ -7,72 +7,74 @@
 |___/\___|\__|\__,_| .__/ 
                    |_|    
 ```
-> This repository keep my essential software setup on **[Elementary OS](#) 0.2 Luna (64-bit)**, including *dotfiles*.
+> This repository keep my essential setup on **[Elementary OS](#) 0.2 Luna (64-bit)**, including *dotfiles*.
 
 ## Softwares
 
 ###### Development
-* [Sublime Text]() for code edit
+* [Sublime Text](http://sublimetext.com) for code edit
  * [Settings]()
-* [FileZilla]() for FTP
-* [Vim]() for code edit
+* [Vim](http://vim.org) for code edit
  * [Settings]()
-* [VirtualBox]()
- * [IE test VMs]()
+* [FileZilla](https://filezilla-project.org) for FTP
+* [VirtualBox](https://virtualbox.org/) for virtual machines
+ * [IE test VMs](http://modern.ie/pt-br/virtualization-tools)
 
 ###### Browser
-* [Firefox]() (default)
+* [Firefox](http://mozilla.org/firefox) (default)
  * [Extensions]()
  * [Bookmarks]()
-* [Firefox Aurora](http://www.mozilla.org/en-US/firefox/aurora/)
-* [Chromium](https://www.google.com/intl/en/chrome/browser/canary.html)
-* [Opera Next](http://www.opera.com/computer/next)
+* [Firefox Aurora](http://mozilla.org/en-US/firefox/aurora/)
+* [Chromium](http://chromium.org/)
+* [Opera Next](http://opera.com/computer/next)
 
 ###### Media
-* [Rhythmbox]() for music player
-* [VLC]() for video player
-* [Skype]() for IM
+* [Rhythmbox](https://projects.gnome.org/rhythmbox/) for music player
+* [VLC](http://videolan.org/vlc) for video player
+* [Skype](http://skype.com) for IM
 
 ###### Tools
-* [Elementary Tweaks]() for Elementary OS tweakign
- * [Harvey theme]()
-* [Tilda]() for terminal emulator
-* [System Monitor]() for tasks manager
-* [LibreOffice]() for office suite
-* [Deja-Dup]() for backup
-* [GIMP]() for graphic editor
-* [RecordMyDesktop]() for screencasts
-* [ScreenCloud]() for easy screenshots
-* [Deluge]() for BitTorrent client
-* [Dropbox]() for file syncing 
-* [Brasero]() for burn discs
-* [Disks]() for disk utility
+* [Elementary Tweaks](https://code.launchpad.net/~versable/elementary-community/elementary-tweaks) for OS tweaking
+ * Harvey theme
+* [Tilda](http://tilda.sourceforge.net/) for terminal client
+ * [Settings]()
+* [System Monitor](https://launchpad.net/gnome-system-monitor) for tasks management
+* [LibreOffice](http://libreoffice.org) for office suite
+* [Deja-Dup](https://launchpad.net/deja-dup) for backup
+* [GIMP](http://gimp.org/) for graphic editor
+* [RecordMyDesktop](http://recordmydesktop.sourceforge.net) for screencasts
+* [ScreenCloud](http://screencloud.net/) for easy screenshots
+* [Deluge](http://deluge-torrent.org/) for BitTorrent client
+* [Dropbox](https://dropbox.com/) for file syncing 
+* [Brasero](https://projects.gnome.org/brasero) for burn CD/DVD
+* [Disks](https://launchpad.net/gnome-disk-utility) for disk utility
 
 > Most "not-dev" software above is part of the [Elementary OS essentials kit](https://github.com/diessicode/elementaryos-essentials) I did. 
 
 ## Dotfiles
 ###### Shell
-* [ZSH]() for shell
-* [Oh my ZSH]() for ZSH tweaking
+* [ZSH](http://zsh.sourceforge.net) for shell
+* [Oh my ZSH](https://github.com/robbyrussell/oh-my-zsh) for ZSH tweaking
 
 ###### Tools
-* [Git]() for code versioning
-* [Wget]() for retrieving files using HTTP, HTTPS and FTP
-* [npm]() for Node.js package management
-* [RubyGems]() for Ruby package management
+* [Git](http://git-scm.com/) for code versioning
+* [Wget](http://gnu.org/software/wget/) for retrieving files using HTTP, HTTPS and FTP
+* [npm](https://npmjs.org/) for Node.js package management
+* [RubyGems](http://rubygems.org/) for Ruby package management
 
 ###### Node.js
-* [DocPad]() for static generated website development
-* [Grunt]() 
-* [Bower]() 
-* [JSHint]()
-* [Stylus]()
-* [Jade]()
+* [DocPad](http:/docpad.org) for static generated website development
+* [Grunt](http://gruntjs.com/) for task automation
+* [Bower](https://github.com/bower/bower) for front-end package management
+* [JSHint](http://jshint.com) for JavaScript code quality
+* [Stylus](http://learnboost.github.io/stylus) for CSS preprocessor
+* [Jade](http://jade-lang.com) for HTML templating engine
 
 
 ###### Ruby
-* [Sass]()
-* [HAML]()
+* [Sass](http://sass-lang.com) for CSS preprocessing
+* [Compass](http://compass-style.org/) for Sass programming
+* [Haml](http://haml.info) for HTML templating engine
 
 ## Notes
 ### Specific system settings
@@ -94,9 +96,6 @@
    * Minimize current window
 
 ###### Hot-keys
-...
-
-### Tilda settings
 ...
 
 ### Thanks
