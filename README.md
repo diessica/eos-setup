@@ -35,7 +35,7 @@
 
 ###### Tools
 * [Elementary Tweaks](https://code.launchpad.net/~versable/elementary-community/elementary-tweaks) for OS tweaking
- * Harvey theme
+ * [Harvey theme](https://code.launchpad.net/~versable/elementary-community/elementary-harvey-theme)
 * [Tilda](http://tilda.sourceforge.net/) for terminal client
  * [Settings]()
 * [System Monitor](https://launchpad.net/gnome-system-monitor) for tasks management
