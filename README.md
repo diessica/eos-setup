@@ -9,6 +9,8 @@
 ```
 > This repository keep my essential setup on **[Elementary OS](#) 0.2 Luna (64-bit)**, including *dotfiles*.
 
+> **UNDER CONSTRUCTION**
+
 ## Softwares
 
 ###### Development
