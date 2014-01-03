@@ -102,5 +102,5 @@
 
 ### Thanks
 * [Zeno Rocha](https://github.com/zenorocha), which has settings similar to mine, as you can see in his [dotfiles](https://github.com/zenorocha).
-* [Deny Dias](https://github.com/denydias/dotfiles)' dotfiles and his awesome article "[Ordem nos dotfiles](http://mexapi.macpress.com.br/2013/10/ordem-nos-dotfiles.html#.UoaawUPpYsk)"
+* [Deny Dias' dotfiles](https://github.com/denydias/dotfiles) and his awesome article "[Ordem nos dotfiles](http://mexapi.macpress.com.br/2013/10/ordem-nos-dotfiles.html#.UoaawUPpYsk)"
 * [Thoughtbot dotfiles](https://github.com/thoughtbot/dotfiles)
