@@ -14,6 +14,7 @@
   // code
   "translate_tabs_to_spaces": true,
   "word_wrap": "true",
+  "rulers": [80],
 
   // other
   "ignored_packages": ["Vintage"]
