@@ -15,7 +15,7 @@
 
 ###### Development
 * [Sublime Text](http://sublimetext.com) for code edit
- * [Settings]()
+ * [Settings](https://github.com/diessicode/setup/tree/master/sublimetext)
 * [Vim](http://vim.org) for code edit
  * [Settings]()
 * [FileZilla](https://filezilla-project.org) for FTP
