@@ -14,7 +14,7 @@
 ## Softwares
 
 ###### Development
-* [Sublime Text](http://sublimetext.com) for code edit
+* [Sublime Text](http://sublimetext.com) for gcode edit
  * [Settings](https://github.com/diessicode/setup/tree/master/sublimetext)
 * [Vim](http://vim.org) for code edit
  * [Settings]()
@@ -66,7 +66,7 @@
 
 ###### Node.js
 * [DocPad](http:/docpad.org) for static generated website development
-* [Grunt](http://gruntjs.com/) for task automation
+* [Grunt](http://gruntjs.com/)/[Gulp](http://gulpjs.com/) *(yes, I'm still deciding)* for task automation 
 * [Bower](https://github.com/bower/bower) for front-end package management
 * [JSHint](http://jshint.com) for JavaScript code quality
 * [Stylus](http://learnboost.github.io/stylus) for CSS preprocessor
