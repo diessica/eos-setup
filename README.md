@@ -14,7 +14,7 @@
 ## Softwares
 
 ###### Development
-* [Sublime Text](http://sublimetext.com) for gcode edit
+* [Sublime Text](http://sublimetext.com) for code edit
  * [Settings](https://github.com/diessicode/setup/tree/master/sublimetext)
 * [Vim](http://vim.org) for code edit
  * [Settings]()
