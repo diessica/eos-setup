@@ -3,7 +3,7 @@ This repository keeps my **[Elementary OS](http://elementaryos.org/) Luna (64-bi
 
 ## softwares
 > **Download + permission** 
-`curl -O https://raw.github.com/diessicode/setup/master/softwares.sh && chmod +x softwares.sh`
+`curl -O https://raw.github.com/diessicode/setup/master/softwares.sh; chmod +x softwares.sh`
 
 > **Install the packages**  &nbsp; &nbsp; &nbsp; &nbsp;`sudo ./softwares.sh` *(`sudo` is required to install packages. [See **softwares.sh** file](https://raw.github.com/diessicode/setup/master/softwares.sh))*
 
