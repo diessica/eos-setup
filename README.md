@@ -71,6 +71,7 @@
 * [JSHint](http://jshint.com) for JavaScript code quality
 * [Stylus](http://learnboost.github.io/stylus) for CSS preprocessor
 * [Jade](http://jade-lang.com) for HTML templating engine
+* [NodeGH](http://www.nodegh.io/) GitHub command line tools
 
 
 ###### Ruby
