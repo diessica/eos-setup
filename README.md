@@ -1,24 +1,20 @@
-# Diéssica's setup
-```
-          _               
- ___  ___| |_ _   _ _ __  
-/ __|/ _ \ __| | | | '_ \ 
-\__ \  __/ |_| |_| | |_) |
-|___/\___|\__|\__,_| .__/ 
-                   |_|    
-```
-> This repository keep my essential setup on **[Elementary OS](#) 0.2 Luna (64-bit)**, including *dotfiles*.
+# Diéssica's setup :mouse:
+This repository keeps my **[Elementary OS](http://elementaryos.org/) Luna (64-bit)** setup, including *dotfiles*. So far, it also keeps my life :P
 
-> **UNDER CONSTRUCTION**
+## softwares
+> **Download + permission** 
+`curl -O https://raw.github.com/diessicode/setup/master/softwares.sh && chmod +x softwares.sh`
 
-## Softwares
+> **Install the packages**  &nbsp; &nbsp; &nbsp; &nbsp;`sudo ./softwares.sh` *(`sudo` is required to install packages. [See **softwares.sh** file](https://raw.github.com/diessicode/setup/master/softwares.sh))*
+
+--
 
 ###### Development
-* [Sublime Text](http://sublimetext.com) for code edit
+* [Sublime Text](http://sublimetext.com) for editing code
  * [Preferences.sublime-settings](https://github.com/diessicode/setup/blob/master/sublimetext/Preferences.sublime-settings)
-* [Vim](http://vim.org) for code edit
+* [Vim](http://vim.org) for (hard) editing code
  * [.vimrc](https://github.com/diessicode/setup/blob/master/dot/.vimrc)
-* [FileZilla](https://filezilla-project.org) for FTP
+* [FileZilla](https://filezilla-project.org) for file transfer
 * [VirtualBox](https://virtualbox.org/) for virtual machines
  * [IE test VMs](http://modern.ie/pt-br/virtualization-tools)
 
@@ -31,29 +27,33 @@
 * [Opera Next](http://opera.com/computer/next)
 
 ###### Media
-* [Rhythmbox](https://projects.gnome.org/rhythmbox/) for music player
-* [VLC](http://videolan.org/vlc) for video player
-* [Skype](http://skype.com) for IM
+* [Rhythmbox](https://projects.gnome.org/rhythmbox/) (music player)
+* [VLC](http://videolan.org/vlc) (video player)
+* [Skype](http://skype.com) (IM)
 
 ###### Tools
 * [Elementary Tweaks](https://code.launchpad.net/~versable/elementary-community/elementary-tweaks) for OS tweaking
  * [Harvey theme](https://code.launchpad.net/~versable/elementary-community/elementary-harvey-theme)
-* [Tilda](http://tilda.sourceforge.net/) for terminal client
+* [Tilda](http://tilda.sourceforge.net/) for terminal emulation
  * [Settings]()
 * [System Monitor](https://launchpad.net/gnome-system-monitor) for tasks management
 * [LibreOffice](http://libreoffice.org) for office suite
 * [Deja-Dup](https://launchpad.net/deja-dup) for backup
-* [GIMP](http://gimp.org/) for graphic editor
+* [GIMP](http://gimp.org/) for editing and manipulating images
 * [RecordMyDesktop](http://recordmydesktop.sourceforge.net) for screencasts
 * [ScreenCloud](http://screencloud.net/) for easy screenshots
-* [Deluge](http://deluge-torrent.org/) for BitTorrent client
+* [Deluge](http://deluge-torrent.org/) (BitTorrent client)
 * [Dropbox](https://dropbox.com/) for file syncing 
-* [Brasero](https://projects.gnome.org/brasero) for burn CD/DVD
-* [Disks](https://launchpad.net/gnome-disk-utility) for disk utility
+* [Brasero](https://projects.gnome.org/brasero) for burning CD/DVD
+* [Disks](https://launchpad.net/gnome-disk-utility) for managing disks
 
 > Most "not-dev" software above is part of the [Elementary OS essentials kit](https://github.com/diessicode/elementaryos-essentials) I did. 
 
-## Dotfiles
+## dotfiles
+> **TODO:** instructions.
+
+--
+
 ###### Shell
 * [ZSH](http://zsh.sourceforge.net) for shell
 * [Oh my ZSH](https://github.com/robbyrussell/oh-my-zsh) for ZSH tweaking
@@ -65,13 +65,13 @@
 * [RubyGems](http://rubygems.org/) for Ruby package management
 
 ###### Node.js
-* [DocPad](http:/docpad.org) for static generated website development
+* [DocPad](http:/docpad.org) for static-generated website development
 * [Grunt](http://gruntjs.com/)/[Gulp](http://gulpjs.com/) *(yes, I'm still deciding)* for task automation 
 * [Bower](https://github.com/bower/bower) for front-end package management
 * [JSHint](http://jshint.com) for JavaScript code quality
-* [Stylus](http://learnboost.github.io/stylus) for CSS preprocessor
+* [Stylus](http://learnboost.github.io/stylus) for CSS preprocessing
 * [Jade](http://jade-lang.com) for HTML templating engine
-* [NodeGH](http://www.nodegh.io/) GitHub command line tools
+* [NodeGH](http://www.nodegh.io/) for GitHub command line tools
 
 
 ###### Ruby
@@ -79,8 +79,7 @@
 * [Compass](http://compass-style.org/) for Sass programming
 * [Haml](http://haml.info) for HTML templating engine
 
-## Notes
-### Specific system settings
+## notes
 ###### Dock
 * **Icon size** → Medium
 * **Hide mode** → Intelligent hide
@@ -98,10 +97,7 @@
  * Left
    * Minimize current window
 
-###### Hot-keys
-...
-
-### Thanks
+## thanks to
 * [Zeno Rocha](https://github.com/zenorocha), which has settings similar to mine, as you can see in his [dotfiles](https://github.com/zenorocha).
-* [Deny Dias' dotfiles](https://github.com/denydias/dotfiles) and his awesome article "[Ordem nos dotfiles](http://mexapi.macpress.com.br/2013/10/ordem-nos-dotfiles.html#.UoaawUPpYsk)"
-* [Thoughtbot dotfiles](https://github.com/thoughtbot/dotfiles)
+* [Deny Dias' dotfiles](https://github.com/denydias/dotfiles) and his awesome article "[Ordem nos dotfiles](http://mexapi.macpress.com.br/2013/10/ordem-nos-dotfiles.html#.UoaawUPpYsk)".
+* [Thoughtbot dotfiles](https://github.com/thoughtbot/dotfiles).
