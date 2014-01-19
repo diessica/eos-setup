@@ -12,3 +12,5 @@ Bundle 'bling/vim-airline'
 Bundle 'pangloss/vim-javascript'
 Bundle 'zeis/vim-kolor'
 Bundle 'tpope/vim-surround'
+Bundle 'airblade/vim-gitgutter'
+Bundle "mattn/emmet-vim"
