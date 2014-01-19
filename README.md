@@ -15,9 +15,9 @@
 
 ###### Development
 * [Sublime Text](http://sublimetext.com) for code edit
- * [Settings](https://github.com/diessicode/setup/tree/master/sublimetext)
+ * [Preferences.sublime-settings](https://github.com/diessicode/setup/blob/master/sublimetext/Preferences.sublime-settings)
 * [Vim](http://vim.org) for code edit
- * [Settings]()
+ * [.vimrc](https://github.com/diessicode/setup/blob/master/dot/.vimrc)
 * [FileZilla](https://filezilla-project.org) for FTP
 * [VirtualBox](https://virtualbox.org/) for virtual machines
  * [IE test VMs](http://modern.ie/pt-br/virtualization-tools)
