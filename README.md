@@ -34,8 +34,7 @@ This repository keeps my **[Elementary OS](http://elementaryos.org/) Luna (64-bi
 ###### Tools
 * [Elementary Tweaks](https://code.launchpad.net/~versable/elementary-community/elementary-tweaks) for OS tweaking
  * [Harvey theme](https://code.launchpad.net/~versable/elementary-community/elementary-harvey-theme)
-* [Tilda](http://tilda.sourceforge.net/) for terminal emulation
- * [Settings]()
+* [Terminator](http://software.jessies.org/terminator/) for terminal emulation
 * [System Monitor](https://launchpad.net/gnome-system-monitor) for tasks management
 * [LibreOffice](http://libreoffice.org) for office suite
 * [Deja-Dup](https://launchpad.net/deja-dup) for backup
@@ -66,13 +65,13 @@ This repository keeps my **[Elementary OS](http://elementaryos.org/) Luna (64-bi
 
 ###### Node.js
 * [DocPad](http:/docpad.org) for static-generated website development
-* [Grunt](http://gruntjs.com/)/[Gulp](http://gulpjs.com/) *(yes, I'm still deciding)* for task automation 
+* [Wintersmith](wintersmith.io) for static-generated website development
+* [Grunt](http://gruntjs.com/)/[Gulp](http://gulpjs.com/) for task automation 
 * [Bower](https://github.com/bower/bower) for front-end package management
 * [JSHint](http://jshint.com) for JavaScript code quality
 * [Stylus](http://learnboost.github.io/stylus) for CSS preprocessing
 * [Jade](http://jade-lang.com) for HTML templating engine
 * [NodeGH](http://www.nodegh.io/) for GitHub command line tools
-
 
 ###### Ruby
 * [Sass](http://sass-lang.com) for CSS preprocessing
