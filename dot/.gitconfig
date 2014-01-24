@@ -1,0 +1,50 @@
+[user]
+  name = Diéssica Gurskas
+  email = diessicode@gmail.com
+  
+[core]
+  editor = vim
+
+[alias]
+  # fast commands
+  ad = add .
+  br = branch
+  cm = commit -m
+  cam = commit -a -m
+  pl = pull
+  ps = push
+  st = status
+  
+  # intuitive commands
+  graph = log --graph
+  whois = "!sh -c 'git log -i -1 --pretty=\"format:%an <%ae>\n\" --author=\"$1\"' -"
+  tags = tag -l
+  branches = branch -a
+  
+[apply]
+  whitespace = fix
+  
+[color]
+  ui = auto
+  
+[color "branch"]
+  current = yellow reverse
+  local = yellow
+  remote = green
+  
+[color "diff"]
+  meta = yellow bold
+  frag = magenta bold
+  old = red bold
+  new = green bold
+  
+[color "status"]
+  added = yellow
+  changed = green
+  untracked = cyan
+  
+[merge]
+  log = true
+  
+[push]
+  default = simple
