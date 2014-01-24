@@ -10,6 +10,7 @@
   ad = add .
   br = branch
   cm = commit -m
+  ca = commit --amend -m
   cam = commit -a -m
   pl = pull
   ps = push
