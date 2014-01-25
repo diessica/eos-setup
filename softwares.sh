@@ -13,4 +13,3 @@ read -p "What package manager do you use? (E.g. apt-get, aptitude) | " packageMa
 "$packageManager" install rhythmbox
 
 # Tools
-"$packageManager" install tilda
