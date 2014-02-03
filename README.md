@@ -3,7 +3,7 @@ This repository keeps my **[Elementary OS](http://elementaryos.org/) Luna (64-bi
 
 ## softwares
 > **Download + permission** 
-`curl -O https://raw.github.com/diessicode/setup/master/softwares.sh; chmod +x softwares.sh`
+`curl -O https://raw.github.com/diessica/setup/master/softwares.sh; chmod +x softwares.sh`
 
 > **Install the packages** `sudo ./softwares.sh` *(`sudo` is required to install packages. [See **softwares.sh** file](https://raw.github.com/diessicode/setup/master/softwares.sh))*
 
@@ -11,9 +11,9 @@ This repository keeps my **[Elementary OS](http://elementaryos.org/) Luna (64-bi
 
 ###### Development
 * [Sublime Text](http://sublimetext.com) for editing code
- * [Preferences.sublime-settings](https://github.com/diessicode/setup/blob/master/sublimetext/Preferences.sublime-settings)
+ * [Preferences.sublime-settings](https://github.com/diessica/setup/blob/master/sublimetext/Preferences.sublime-settings)
 * [Vim](http://vim.org) for (hard) editing code
- * [.vimrc](https://github.com/diessicode/setup/blob/master/dot/.vimrc)
+ * [.vimrc](https://github.com/diessica/setup/blob/master/dot/.vimrc)
 * [FileZilla](https://filezilla-project.org) for file transfer
 * [VirtualBox](https://virtualbox.org/) for virtual machines
  * [IE test VMs](http://modern.ie/pt-br/virtualization-tools)
