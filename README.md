@@ -45,6 +45,7 @@ This repository keeps my **[Elementary OS](http://elementaryos.org/) Luna (64-bi
 * [Dropbox](https://dropbox.com/) for file syncing 
 * [Brasero](https://projects.gnome.org/brasero) for burning CD/DVD
 * [Disks](https://launchpad.net/gnome-disk-utility) for managing disks
+* [Super Wingpanel](https://launchpad.net/~heathbar/+archive/super-wingpanel) for a better Wingpanel
 
 > Most "not-dev" software above is part of the [Elementary OS essentials kit](https://github.com/diessicode/elementaryos-essentials) I did. 
 
