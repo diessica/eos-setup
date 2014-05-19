@@ -10,6 +10,7 @@ This repository keeps my **[Elementary OS](http://elementaryos.org/) Luna (64-bi
 --
 
 ###### Development
+* [Atom](https://atom.io) for editing code
 * [Sublime Text](http://sublimetext.com) for editing code
  * [Preferences.sublime-settings](https://github.com/diessica/setup/blob/master/sublimetext/Preferences.sublime-settings)
 * [Vim](http://vim.org) for (hard) editing code
