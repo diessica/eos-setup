@@ -64,6 +64,7 @@ This repository keeps my **[Elementary OS](http://elementaryos.org/) Luna (64-bi
 * [Wget](http://gnu.org/software/wget/) for retrieving files using HTTP, HTTPS and FTP
 * [npm](https://npmjs.org/) for Node.js package management
 * [RubyGems](http://rubygems.org/) for Ruby package management
+* [Drush](http://drush.ws/) for Drupal command line shell and scripting interface
 
 ###### Node.js
 * [DocPad](http:/docpad.org) for static-generated website development
