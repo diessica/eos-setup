@@ -35,7 +35,7 @@ This repository keeps my **[Elementary OS](http://elementaryos.org/) Luna (64-bi
 ###### Tools
 * [Elementary Tweaks](https://code.launchpad.net/~versable/elementary-community/elementary-tweaks) for OS tweaking
  * [Harvey theme](https://code.launchpad.net/~versable/elementary-community/elementary-harvey-theme)
-* [Terminator](http://software.jessies.org/terminator/) for terminal emulation
+* [Terminator](https://launchpad.net/terminator) for terminal emulation
 * [System Monitor](https://launchpad.net/gnome-system-monitor) for tasks management
 * [LibreOffice](http://libreoffice.org) for office suite
 * [Deja-Dup](https://launchpad.net/deja-dup) for backup
