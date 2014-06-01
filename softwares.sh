@@ -14,3 +14,4 @@ read -p "What package manager do you use? (E.g. apt-get, aptitude) | " packageMa
 
 # Tools
 "$packageManager" install elementary-tweaks
+"$packageManager" install terminator
