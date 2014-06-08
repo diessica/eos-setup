@@ -21,7 +21,7 @@ echo -e "You choose which packages to install. When it happens,  ${bold}answer w
 printf "%*s" "$width" |tr " " "-"
 
 # Prompts the user for the package manager
-read -p "Which package manager do you use? (E.g. ${bold}apt-get${normal}, ${bold}aptitude${normal}) | " packageInstaller
+read -p "Which package manager do you use? (E.g. ${bold}apt-get${normal}, ${bold}aptitude${normal}) | " packageManager
 printf "%*s" "$width" |tr " " "-"
 
 #-----------------------------------------------------
@@ -46,7 +46,7 @@ installApp() {
   printf "%*s" "$width" |tr " " "-"
 }
 
-$packages = "vim" "google-chrome-stable" "elementary-tweaks" "terminator" "vlc" "rhythmbox"
+packages="vim" "google-chrome-stable" "elementary-tweaks" "terminator" "vlc" "rhythmbox"
 for x in $packages
 do 
   set -- "$x"
@@ -58,7 +58,7 @@ done
 # Packages with specific PPAs or dependencies        |
 #-----------------------------------------------------
 
-echo "Install ${bold}Chromium Beta{normal}?"
+echo "Install ${bold}Chromium Beta${normal}?"
 select yn in "✔ Yes" "✗ No"; do  
 case $yn in
   "✔ Yes" ) 
