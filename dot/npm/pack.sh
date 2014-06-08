@@ -8,7 +8,6 @@ run_npm() {
     local packages="grunt-cli gulp bower csslint csscomb stylus imageoptim-cli gh jade hexo jasmine-node yslow shelljs uglify-js jshint browser-sync markdown"
     
     # if doesn't exist yet, then install
-    npm install $packages -g
     if which ${packages[@]} &> /dev/null; then
     	msg_ok "${packages[@]}"
     else
