@@ -68,7 +68,7 @@ This repository keeps my **[Elementary OS](http://elementaryos.org/) Luna (64-bi
 
 ###### Node.js
 * [DocPad](http:/docpad.org) for static-generated website development
-* [Wintersmith](wintersmith.io) for static-generated website development
+* [Hexo](http://hexo.io) for static-generated website development
 * [Grunt](http://gruntjs.com/)/[Gulp](http://gulpjs.com/) for task automation 
 * [Bower](https://github.com/bower/bower) for front-end package management
 * [JSHint](http://jshint.com) for JavaScript code quality
