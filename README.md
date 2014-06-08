@@ -1,13 +1,52 @@
-# Diéssica's setup :mouse:
-This repository keeps my **[Elementary OS](http://elementaryos.org/) Luna (64-bit)** setup, including *dotfiles*. So far, it also keeps my life :P
+# diéssica's setup :penguin:
+This repository keeps my essential setup on **[Elementary OS](http://elementaryos.org/) Luna (64-bit)**, including *dotfiles*. So far, it also keeps my life :P
 
-## softwares
-> **Download + permission** 
-`curl -O https://raw.github.com/diessica/setup/master/softwares.sh; chmod +x softwares.sh`
+## how to
+After installing Elementary OS...
 
-> **Install the packages** `sudo ./softwares.sh` *(`sudo` is required to install packages. [See **softwares.sh** file](https://raw.github.com/diessicode/setup/master/softwares.sh))*
+#### 1. Check for upgrades and updates
+  ```sh
+  sudo aptitude distr-upgrade; sudo aptitude upgrade; sudo aptitude update
+  ```
+
+#### 2. Install dot(files)
+> Stuff like ZSH shell and its plugins, my Vim settings and essential NPM packages. See [dot](https://github.com/diessica/setup/blob/master/README.md#).
+> TODO
+
+#### 3. Install some essential softwares using [Elementary OS essentials](https://github.com/diessica/elementaryos-essentials) kit
+  > See [pack](https://github.com/diessica/setup/blob/master/README.md#).
+  
+  ```sh
+  curl -O https://raw.github.com/diessica/elementaryos-essentials/master/kit.sh
+  chmod +x kit.sh
+  sudo ./kit.sh
+  ```
+
+#### 4. Run [pack.sh](https://github.com/diessica/setup/blob/master/pack.sh) to install additional softwares
+  > See [pack](https://github.com/diessica/setup/blob/master/README.md#).
+
+  ```sh
+  curl -O https://github.com/diessica/setup/blob/master/pack.sh
+  chmod +x pack.sh
+  sudo ./pack.sh
+  ```
+
+#### 5. Generate SSH keys
+  ```sh
+  ssh-keygen -t rsa -C "example@email.com"
+  ssh-add ~/.ssh/id_rsa
+  ```
+  That done, add SSH key to both [GitHub](https://help.github.com/articles/generating-ssh-keys#step-3-add-your-ssh-key-to-github) and [BitBucket](https://confluence.atlassian.com/display/BITBUCKET/Set+up+SSH+for+Git).
+  
+#### 6. Set default softwares and preferences
+  > See [notes](https://github.com/diessica/setup/blob/master/README.md#notes).
+  
+#### 7. Configure Sublime Text
+  > See my [Sublime Text's repo](https://github.com/diessica/setup/tree/master/sublimetext).
 
 --
+
+### pack
 
 ###### Development
 * [Atom](https://atom.io) for editing code
@@ -48,12 +87,9 @@ This repository keeps my **[Elementary OS](http://elementaryos.org/) Luna (64-bi
 * [Disks](https://launchpad.net/gnome-disk-utility) for managing disks
 * [Super Wingpanel](https://launchpad.net/~heathbar/+archive/super-wingpanel) for a better Wingpanel
 
-> Most "not-dev" software above is part of the [Elementary OS essentials kit](https://github.com/diessicode/elementaryos-essentials) I've done.
+> Most "non-dev" softwares above are part of the [Elementary OS essentials kit](https://github.com/diessicode/elementaryos-essentials).
 
-## dotfiles
-> **TODO:** instructions.
-
---
+### dot
 
 ###### Shell
 * [ZSH](http://zsh.sourceforge.net) for shell
@@ -69,12 +105,15 @@ This repository keeps my **[Elementary OS](http://elementaryos.org/) Luna (64-bi
 ###### Node.js
 * [DocPad](http:/docpad.org) for static-generated website development
 * [Hexo](http://hexo.io) for static-generated website development
-* [Grunt](http://gruntjs.com/)/[Gulp](http://gulpjs.com/) for task automation 
+* [Grunt](http://gruntjs.com/) for task automation
+* [Gulp](http://gulpjs.com/) for task automation
 * [Bower](https://github.com/bower/bower) for front-end package management
 * [JSHint](http://jshint.com) for JavaScript code quality
 * [Stylus](http://learnboost.github.io/stylus) for CSS preprocessing
 * [Jade](http://jade-lang.com) for HTML templating engine
+* [Jasmine](http://jasmine.github.io/) for testing JavaScript code
 * [NodeGH](http://www.nodegh.io/) for GitHub command line tools
+* [NodeGH Jira](https://github.com/node-gh/gh-jira) NodeGH plugin for integrating Jira
 
 ###### Ruby
 * [Sass](http://sass-lang.com) for CSS preprocessing
