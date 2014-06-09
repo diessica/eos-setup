@@ -16,12 +16,6 @@
   st = status
 
   ## intuitive commands
-  # show a full log
-  graph = log --graph --all --pretty=format:'%C(yellow)%h%C(cyan)%d%Creset %s %C(white)- %an, %ar%Creset'
-  # name/email of the author
-  whois = "!sh -c 'git log -i -1 --pretty=\"format:%an <%ae>\n\" --author=\"$1\"' -"
-  # commit name
-  whatis = show -s --pretty='tformat:%h (%s, %ad)' --date=short
   # list tags
   tags = tag -l
   # list branches
@@ -32,6 +26,12 @@
   uncommit = reset HEAD~1
   # rewrite last commit message
   recommit = commit --amend -m
+  # show a full log
+  graph = log --graph --all --pretty=format:'%C(yellow)%h%C(cyan)%d%Creset %s %C(white)- %an, %ar%Creset'
+  # name/email of the author
+  whois = "!sh -c 'git log -i -1 --pretty=\"format:%an <%ae>\n\" --author=\"$1\"' -"
+  # commit name
+  whatis = show -s --pretty='tformat:%h (%s, %ad)' --date=short
   
 [apply]
   whitespace = fix
