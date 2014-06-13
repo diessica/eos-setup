@@ -4,9 +4,9 @@ This repository keeps my essential setup on **[Elementary OS](http://elementaryo
 ## how to
 After installing Elementary OS...
 
-#### 1. Check for upgrades and updates
+#### 1. Check for both upgrades and updates
   ```sh
-  sudo aptitude distr-upgrade; sudo aptitude upgrade; sudo aptitude update
+  sudo apt-get dist-upgrade; sudo apt-get upgrade; sudo apt-get update
   ```
 
 #### 2. Install dot(files)
