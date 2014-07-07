@@ -13,6 +13,7 @@
   cam = commit -a -m
   pl = pull
   ps = push
+  psm = push origin master
   st = status
 
   ## intuitive commands
@@ -58,6 +59,3 @@
   
 [merge]
   log = true
-  
-[push]
-  default = simple
