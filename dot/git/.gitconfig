@@ -2,9 +2,6 @@
   name = Diéssica Gurskas
   email = diessicode@gmail.com
   
-[core]
-  editor = vim
-
 [alias]
   ## fast commands
   ad = add .
