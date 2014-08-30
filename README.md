@@ -74,6 +74,7 @@ After installing Elementary OS...
 ###### Tools
 * [Elementary Tweaks](https://code.launchpad.net/~versable/elementary-community/elementary-tweaks) for OS tweaking
  * [Harvey theme](https://code.launchpad.net/~versable/elementary-community/elementary-harvey-theme)
+ * [Numix-Circle icons](https://github.com/numixproject/numix-icon-theme-circle)
 * [Terminator](https://launchpad.net/terminator) for terminal emulation
 * [System Monitor](https://launchpad.net/gnome-system-monitor) for tasks management
 * [LibreOffice](http://libreoffice.org) for office suite
