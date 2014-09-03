@@ -1,4 +1,6 @@
 # diéssica's setup :penguin:
+> :eyes: Under construction.
+
 This repository keeps my essential setup on **[Elementary OS](http://elementaryos.org/) Luna (64-bit)**, including *dotfiles*. So far, it also keeps my life :P
 
 ## how to
@@ -10,11 +12,11 @@ sudo apt-get dist-upgrade; sudo apt-get upgrade; sudo apt-get update
 ```
 
 #### 2. Install dot(files)
-> Stuff like ZSH shell and its plugins, my Vim settings and essential NPM packages. See [dot](https://github.com/diessica/setup/blob/master/README.md#).
+> Stuff like aliases, Zsh shell and its plugins, my Vim settings and essential npm packages. See [dot](https://github.com/diessica/setup/blob/master/README.md#).
 > TODO
 
-#### 3. Install some essential softwares using [Elementary OS essentials](https://github.com/diessica/elementaryos-essentials) kit
-  > See [pack](https://github.com/diessica/setup/blob/master/README.md#).
+#### 3. Install some essential (non-dev) software using [Elementary OS essentials](https://github.com/diessica/elementaryos-essentials) kit
+  > See [kit](https://github.com/diessica/setup/blob/master/README.md#). See [which ones](https://github.com/diessica/setup#pack).
   
 ```sh
 curl -O https://raw.github.com/diessica/elementaryos-essentials/master/kit.sh
@@ -22,7 +24,7 @@ chmod +x kit.sh
 sudo ./kit.sh
 ```
 
-#### 4. Run [pack.sh](https://github.com/diessica/setup/blob/master/pack.sh) to install additional softwares
+#### 4. Run [pack.sh](https://github.com/diessica/setup/blob/master/pack.sh) to install additional softwares/tools
   > See [pack](https://github.com/diessica/setup/blob/master/README.md#).
 
 ```sh
@@ -31,7 +33,8 @@ chmod +x pack.sh
 sudo ./pack.sh
 ```
 
-#### 5. Generate SSH keys
+#### 5. SSH key
+Generate it:
 ```sh
 ssh-keygen -t rsa -C "example@email.com"
 ssh-add ~/.ssh/id_rsa
@@ -42,26 +45,26 @@ ssh-add ~/.ssh/id_rsa
   > See [notes](https://github.com/diessica/setup/blob/master/README.md#notes).
   
 #### 7. Configure Sublime Text
-  > See my [Sublime Text's repo](https://github.com/diessica/setup/tree/master/sublimetext).
+  > See [Sublime repo](https://github.com/diessica/setup/tree/master/sublimetext).
 
 --
 
 ### pack
 
 ###### Development
-* [Atom](https://atom.io) for editing code
 * [Sublime Text](http://sublimetext.com) for editing code
  * [Preferences.sublime-settings](https://github.com/diessica/setup/blob/master/sublimetext/Preferences.sublime-settings)
 * [Vim](http://vim.org) for (hard) editing code
- * [.vimrc](https://github.com/diessica/setup/blob/master/dot/.vimrc)
+ * [.vimrc](https://github.com/diessica/setup/blob/master/dot/vim/.vimrc)
+* Snap for editing code
 * [FileZilla](https://filezilla-project.org) for file transfer
 * [VirtualBox](https://virtualbox.org/) for virtual machines
- * [IE test VMs](http://modern.ie/pt-br/virtualization-tools)
+ * [IE test VMs](http://modern.ie/virtualization-tools)
 
 ###### Browser
+> TODO: open source my main extensions and bookmarks.
+
 * [Firefox](http://mozilla.org/firefox) (default)
- * [Extensions]()
- * [Bookmarks]()
 * [Firefox Aurora](http://mozilla.org/en-US/firefox/aurora/)
 * [Chromium](http://chromium.org/)
 * [Opera Next](http://opera.com/computer/next)
@@ -80,12 +83,13 @@ ssh-add ~/.ssh/id_rsa
 * [LibreOffice](http://libreoffice.org) for office suite
 * [Deja-Dup](https://launchpad.net/deja-dup) for backup
 * [GIMP](http://gimp.org/) for editing and manipulating images
+* Adobe Fireworks CS6 for UI designing
 * [RecordMyDesktop](http://recordmydesktop.sourceforge.net) for screencasts
 * [ScreenCloud](http://screencloud.net/) for easy screenshots
 * [Deluge](http://deluge-torrent.org/) (BitTorrent client)
-* [Dropbox](https://dropbox.com/) for file syncing 
+* [Copy](https://copy.com/) for file syncing 
 * [Brasero](https://projects.gnome.org/brasero) for burning CD/DVD
-* [Disks](https://launchpad.net/gnome-disk-utility) for managing disks
+* [Disks](https://launchpad.net/gnome-disk-utility) for disk management
 * [Super Wingpanel](https://launchpad.net/~heathbar/+archive/super-wingpanel) for a better Wingpanel
 
 > Most "non-dev" softwares above are part of the [Elementary OS essentials kit](https://github.com/diessicode/elementaryos-essentials).
@@ -93,13 +97,14 @@ ssh-add ~/.ssh/id_rsa
 ### dot
 
 ###### Shell
-* [ZSH](http://zsh.sourceforge.net) for shell
-* [Oh my ZSH](https://github.com/robbyrussell/oh-my-zsh) for ZSH tweaking
+* [Zsh](http://zsh.sourceforge.net) for shell
+* [Oh my Zsh](https://github.com/robbyrussell/oh-my-zsh) for ZSH tweaking
 
-###### Tools
+###### General tools
 * [Git](http://git-scm.com/) for code versioning
 * [Wget](http://gnu.org/software/wget/) for retrieving files using HTTP, HTTPS and FTP
 * [npm](https://npmjs.org/) for Node.js package management
+* [tree](http://linux.die.net/man/1/tree) for listing tree-like directories
 * [RubyGems](http://rubygems.org/) for Ruby package management
 * [Drush](http://drush.ws/) for Drupal command line shell and scripting interface
 
