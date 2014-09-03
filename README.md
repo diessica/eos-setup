@@ -5,9 +5,9 @@ This repository keeps my essential setup on **[Elementary OS](http://elementaryo
 After installing Elementary OS...
 
 #### 1. Check for both upgrades and updates
-  ```sh
-  sudo apt-get dist-upgrade; sudo apt-get upgrade; sudo apt-get update
-  ```
+```sh
+sudo apt-get dist-upgrade; sudo apt-get upgrade; sudo apt-get update
+```
 
 #### 2. Install dot(files)
 > Stuff like ZSH shell and its plugins, my Vim settings and essential NPM packages. See [dot](https://github.com/diessica/setup/blob/master/README.md#).
@@ -16,26 +16,26 @@ After installing Elementary OS...
 #### 3. Install some essential softwares using [Elementary OS essentials](https://github.com/diessica/elementaryos-essentials) kit
   > See [pack](https://github.com/diessica/setup/blob/master/README.md#).
   
-  ```sh
-  curl -O https://raw.github.com/diessica/elementaryos-essentials/master/kit.sh
-  chmod +x kit.sh
-  sudo ./kit.sh
-  ```
+```sh
+curl -O https://raw.github.com/diessica/elementaryos-essentials/master/kit.sh
+chmod +x kit.sh
+sudo ./kit.sh
+```
 
 #### 4. Run [pack.sh](https://github.com/diessica/setup/blob/master/pack.sh) to install additional softwares
   > See [pack](https://github.com/diessica/setup/blob/master/README.md#).
 
-  ```sh
-  curl -O https://github.com/diessica/setup/blob/master/pack.sh
-  chmod +x pack.sh
-  sudo ./pack.sh
-  ```
+```sh
+curl -O https://github.com/diessica/setup/blob/master/pack.sh
+chmod +x pack.sh
+sudo ./pack.sh
+```
 
 #### 5. Generate SSH keys
-  ```sh
-  ssh-keygen -t rsa -C "example@email.com"
-  ssh-add ~/.ssh/id_rsa
-  ```
+```sh
+ssh-keygen -t rsa -C "example@email.com"
+ssh-add ~/.ssh/id_rsa
+```
   That done, add SSH key to both [GitHub](https://help.github.com/articles/generating-ssh-keys#step-3-add-your-ssh-key-to-github) and [BitBucket](https://confluence.atlassian.com/display/BITBUCKET/Set+up+SSH+for+Git).
   
 #### 6. Set default softwares and preferences
