@@ -1,5 +1,5 @@
 # diéssica's setup :penguin:
-> :eyes: Under construction.
+> :eyes: OLD.
 
 This repository keeps my essential setup on **[Elementary OS](http://elementaryos.org/) Luna (64-bit)**, including *dotfiles*. So far, it also keeps my life :P
 
