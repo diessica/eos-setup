@@ -1,5 +1,5 @@
 # diéssica's setup :penguin:
-> :eyes: OLD.
+> :warning: This is old! Please, refer to my new [setup on Mac OS X](https://github.com/diessica/setup).
 
 This repository keeps my essential setup on **[Elementary OS](http://elementaryos.org/) Luna (64-bit)**, including *dotfiles*. So far, it also keeps my life :P
 
