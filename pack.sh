@@ -2,7 +2,7 @@
 
 # Main pack.sh
 # Part of Diéssica's setup, maintened by Diéssica Gurskas
-# On GitHub: https://github.com/diessica/setup
+# On GitHub: https://github.com/diessica/eos-setup
 
 #-----------------------------------------------------
 # UTILITIES                                          |
