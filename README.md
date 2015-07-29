@@ -148,3 +148,11 @@ ssh-add ~/.ssh/id_rsa
 * [Zeno Rocha](https://github.com/zenorocha), which has settings similar to mine, as you can see in his [dotfiles](https://github.com/zenorocha).
 * [Deny Dias' dotfiles](https://github.com/denydias/dotfiles) and his awesome article "[Ordem nos dotfiles](http://mexapi.macpress.com.br/2013/10/ordem-nos-dotfiles.html#.UoaawUPpYsk)".
 * [Thoughtbot dotfiles](https://github.com/thoughtbot/dotfiles).
+
+---
+
+###### LICENSE
+
+[![CC0](http://i.creativecommons.org/p/zero/1.0/88x31.png)](http://creativecommons.org/publicdomain/zero/1.0/)
+
+To the extent possible under law, [Diéssica Gurskas](http://diessi.ca) has waived all copyright and related or neighboring rights to this work.
